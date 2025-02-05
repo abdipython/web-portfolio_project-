@@ -1,0 +1,151 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    background: transparent;
+    font-family: poppins;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    padding: 14px;
+    border-radius: 28px;
+    background: #9e8080;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.search-input {
+    font-size: 16px;
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 14px;
+    background: transparent;
+    color: #000;
+}
+
+.search-input::placeholder, .search-icon {
+    color: rgb(0, 0, 0.25);
+}
+
+.nav-links {
+    margin-left: auto;
+    margin-top: 14px;
+    padding: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin: 4px;
+    color: #9e8080;
+    font-weight: bold;
+}
+
+.recipies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.recipies-intro {
+    width: 23%;
+    border: #9e8080 solid 2px;
+    justify-content: center;
+    margin: 15px 4px 5px 0px;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipies-intro img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.recipies-intro h4 {
+    margin: 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+.recipies-intro p {
+    margin: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #9e8080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #7d6666;
+}
+
+.footer {
+    background-color: #9e8080;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-columns {
+    display: grid;
+    padding: 25px;
+    margin: 10px;
+}
+
+.footer-columns h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-columns a {
+    text-decoration: none;
+    color: #100000;
+    font-size: 14px;
+}
+
+.footer-columns a:hover {
+    color: white;
+}
+
+.footer-columns a i {
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+.footer-columns a i:hover {
+    color: #f1f1f1;
+}

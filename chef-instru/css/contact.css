@@ -1,0 +1,78 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the contact form */
+.container {
+    display: flex;
+    max-width: 900px;
+    background: rgb(206, 168, 133);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section (Form Inputs) */
+.left-contact {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-contact h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Input Fields */
+.input-fields {
+    margin-bottom: 20px;
+}
+
+.input-fields input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aca288;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Right Section (Contact Info) */
+.right-contact {
+    width: 50%;
+    padding: 20px;
+    border-left: 2px solid #ccc;
+}
+
+.right-contact h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .left-contact, .right-contact {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+    
